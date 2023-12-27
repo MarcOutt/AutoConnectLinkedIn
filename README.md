@@ -30,7 +30,7 @@ Chromedriver (pour contrôler Google Chrome)
    ```git clone https://github.com/votre-utilisateur/LinkedInAutoConnectBot.git```
 2. Installez les dépendances:
    
-``` pip install -r requirements.txt```
+   ``` pip install -r requirements.txt```
 
 
 ## Configuration
