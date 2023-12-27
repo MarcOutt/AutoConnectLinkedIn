@@ -3,6 +3,15 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-3.141.0-brightgreen)
 
+- [Introduction](#introduction)
+- [Prérequis](#prérequis)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Utilisation](#utilisation)
+- [Remarques](#remarques)
+- [Contributions](#contributions)
+- [Licence](#licence)
+
 ## Introduction
 
 LinkedInAutoConnectBot est un script Python conçu pour automatiser le processus de connexion sur LinkedIn. Il utilise le module Selenium pour interagir avec le site LinkedIn, remplir les champs de connexion, parcourir les pages de résultats de recherche, et se connecter avec d'autres utilisateurs de manière automatisée.
@@ -13,6 +22,16 @@ Avant d'exécuter ce script, assurez-vous d'avoir installé les dépendances sui
 Python (version recommandée : Python 3.x)
 Selenium (pour automatiser le navigateur web)
 Chromedriver (pour contrôler Google Chrome)
+
+## Installation
+
+1. Clônez le dépôt :
+
+   ```git clone https://github.com/votre-utilisateur/LinkedInAutoConnectBot.git```
+2. Installez les dépendances:
+   
+``` pip install -r requirements.txt```
+
 
 ## Configuration
 Créez un fichier personal_infos.py contenant vos informations personnelles, comme suit :
