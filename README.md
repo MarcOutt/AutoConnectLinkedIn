@@ -3,6 +3,10 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-3.141.0-brightgreen)
 
+## Introduction
+
+LinkedInAutoConnectBot est un script Python conçu pour automatiser le processus de connexion sur LinkedIn. Il utilise le module Selenium pour interagir avec le site LinkedIn, remplir les champs de connexion, parcourir les pages de résultats de recherche, et se connecter avec d'autres utilisateurs de manière automatisée.
+
 ## Prérequis
 Avant d'exécuter ce script, assurez-vous d'avoir installé les dépendances suivantes :
 
