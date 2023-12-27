@@ -12,34 +12,36 @@
 - [Contributions](#contributions)
 - [Licence](#licence)
 
-## Introduction
+Prérequis
+Avant d'exécuter ce script, assurez-vous d'avoir installé les dépendances suivantes :
 
-LinkedInAutoConnectBot est un script Python conçu pour automatiser le processus de connexion sur LinkedIn. Il utilise le module Selenium pour interagir avec le site LinkedIn, remplir les champs de connexion, parcourir les pages de résultats de recherche, et se connecter avec d'autres utilisateurs de manière automatisée.
+Python (version recommandée : Python 3.x)
+Selenium (pour automatiser le navigateur web)
+Chromedriver (pour contrôler Google Chrome)
+Configuration
+Créez un fichier personal_infos.py contenant vos informations personnelles, comme suit :
 
-## Installation
+email = "votre_email@gmail.com"
+password = "votre_mot_de_passe"
+phone_number = "votre_numéro_de_téléphone"
+Assurez-vous d'avoir Google Chrome installé sur votre système.
 
-1. Clônez le dépôt :
+Utilisation
+Exécutez le script en utilisant la commande suivante :
 
-   ```git clone https://github.com/votre-utilisateur/LinkedInAutoConnectBot.git```
+python main.py
+Le script ouvrira un navigateur Chrome, se connectera à votre compte LinkedIn, effectuera une recherche d'emplois, et postulera automatiquement à ces emplois.
 
-2. Installer les dépendances
+Si un CAPTCHA est présenté, résolvez-le manuellement dans le navigateur, puis appuyez sur "Enter" dans la console pour continuer.
 
-   ```pip install -r requirements.txt```
+Le script continuera à parcourir les offres d'emploi et à postuler automatiquement jusqu'à ce qu'il n'y ait plus d'offres correspondant aux critères.
 
-## Technologies
+Remarques
+Pour des raisons de sécurité, assurez-vous que vos informations de connexion LinkedIn sont correctes et que vous utilisez ce script conformément aux politiques de LinkedIn.
 
-- Python
-- Selenium
+Vous pouvez personnaliser les critères de recherche en modifiant l'URL dans la section driver.get() du script.
 
-## Utilisation
-
-1. Assurez-vous d'avoir Python installé.
-2. Installez les dépendances comme indiqué dans la section d'installation.
-3. Exécutez le script :
-
- ```python LinkedInAutoConnectBot.py```
-
- Suivez les instructions pour résoudre les captchas manuellement, le cas échéant.
+Ce script a été conçu à des fins éducatives et de démonstration. L'utilisation abusive de l'automatisation sur LinkedIn peut entraîner la suspension de votre compte.
 
  ## Contributions
 
